@@ -1,0 +1,114 @@
+{"projects":
+[
+  {
+    "id": 0,
+    "project_name": "Project 1 - Number Guessing Game",
+    "description": "Build a console number guessing game that prompts a player to choose a number between a specified range of numbers. After the user guesses the correct number, display the number of attempts it took them to guess correctly.",
+    "technologies": ["Python"],
+    "skills": ["Python Fundamentals"],
+    "live_link": "https://csnewb.github.io/project1_number_guessing_game/",
+    "github_link": "https://github.com/csnewb/project1_number_guessing_game",
+    "image_urls": ["views/project1_main.png", "views/project1_1.png", "views/project1_2.png"]
+  },
+  {
+    "id": 1,
+    "project_name": "Project 2 - Basketball Stats",
+    "description": "Build a console-based basketball team statistics tool to help you divide up a group of players into teams. You will apply your knowledge of important Python data structures like lists and dictionaries for the project.",
+    "technologies": ["Python"],
+    "skills": ["Python Fundamentals"],
+    "live_link": "https://csnewb.github.io/project2_basketball_stats/",
+    "github_link": "https://github.com/csnewb/project2_basketball_stats",
+    "image_urls": ["views/project2_main.png", "views/project2_1.png", "views/project2_2.png"]
+  },
+  {
+    "id": 2,
+    "project_name": "Project 3 - Phrase Hunter",
+    "description": "Create a word guessing game: \"Phrase Hunter.\" You’ll use Python and OOP (Object-Oriented Programming) approaches to select a phrase at random, hidden from the player. A player tries to guess the phrase by inputting individual characters. Can they guess the phrase before they run out of attempts?",
+    "technologies": ["Python"],
+    "skills": ["Object-Oriented Programming"],
+    "live_link": "https://csnewb.github.io/project3_phrase_hunter/",
+    "github_link": "https://github.com/csnewb/project3_phrase_hunter",
+    "image_urls": ["views/project3_main.png", "views/project3_1.png", "views/project3_2.png"]
+  },
+  {
+    "id": 3,
+    "project_name": "Project 4 - Store Inventory",
+    "description": "Build a console application that loads an existing store's inventory data from a CSV file into a SQLite database. The application will allow a user to interact with the records stored in the database to view existing records, add new items, and backup/export the existing state of the database into a CSV file.",
+    "technologies": ["Python"],
+    "skills": ["SQL Alchemy", "Error Handling", "CSV Import"],
+    "live_link": "https://csnewb.github.io/project4_store_inventory/",
+    "github_link": "https://github.com/csnewb/project4_store_inventory",
+    "image_urls": ["views/project4_main.png", "views/project4_1.png", "views/project4_2.png"]
+  },
+  {
+    "id": 4,
+    "project_name": "Project 5 - Flask Portfolio",
+    "description": "Create a web application using HTML, CSS, and Flask, a popular framework for Python web development. The web application, a portfolio, displays information about your work which is stored in a database.",
+    "technologies": ["Python", "Flask"],
+    "skills": ["Flask", "Flask-SQLAlchemy", "SQL Alchemy"],
+    "live_link": "https://csnewb.github.io/project5_flask_portfolio/",
+    "github_link": "https://github.com/csnewb/project5_flask_portfolio",
+    "image_urls": ["views/project5_main.png", "views/project5_1.png", "views/project5_2.png"]
+  },
+  {
+    "id": 5,
+    "project_name": "A Random Quote Generator",
+    "description": "Practice your knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+    "technologies": ["JavaScript"],
+    "skills": ["JavaScript Fundamentals"],
+    "completed_date": "28 days ago",
+    "github_link": "https://github.com/csnewb/random_quote_generator",
+    "image_urls": ["views/project6_main.png", "views/project6_1.png", "views/project6_2.png"]
+  },
+  {
+    "id": 6,
+    "project_name": "Data Pagination and Filtering",
+    "description": "Displaying a large amount of data on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to create separate “pages” that each display a small portion of the data. In this project, you'll write JavaScript to display several “pages” of student data that the user can easily navigate and view.",
+    "technologies": ["JavaScript"],
+    "skills": ["JavaScript Fundamentals"],
+    "completed_date": "20 days ago",
+    "github_link": "https://github.com/csnewb/data_pagination_filtering",
+    "image_urls": ["views/project7_main.png", "views/project7_1.png", "views/project7_2.png"]
+  },
+  {
+    "id": 7,
+    "project_name": "Interactive Form",
+    "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, you’ll use your skills to enhance a form so that it’s engaging, interactive, and easy to use.",
+    "technologies": ["JavaScript"],
+    "skills": ["JavaScript Fundamentals"],
+    "completed_date": "14 days ago",
+    "github_link": "https://github.com/csnewb/interactive_form",
+    "image_urls": ["views/project8_main.png", "views/project8_1.png", "views/project8_2.png"]
+  },
+  {
+    "id": 8,
+    "project_name": "OOP Game Show App",
+    "description": "Create a browser-based, word guessing game: \"Phrase Hunter.\" You’ll use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
+    "technologies": ["JavaScript"],
+    "skills": ["JavaScript Fundamentals", "Object-Oriented Programming"],
+    "completed_date": "6 days ago",
+    "github_link": "https://github.com/csnewb/oop_game_show_app",
+    "image_urls": ["views/project9_main.png", "views/project9_1.png", "views/project9_2.png"]
+  },
+  {
+    "id": 9,
+    "project_name": "Public API Requests",
+    "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, you’ll create an employee directory by communicating with a third-party API (Application Programming Interface).",
+    "technologies": ["JavaScript"],
+    "skills": ["JavaScript Fundamentals", "API Integration"],
+    "github_link": "https://github.com/csnewb/public_api_requests",
+    "image_urls": ["views/project10_main.png", "views/project10_1.png", "views/project10_2.png"]
+  },
+  {
+    "id": 10,
+    "project_name": "Static Node.js and Express Site",
+    "description": "Node.js and Express make a powerful pair when used together on the server side, and are used everyday to make fast, modular and dynamic web applications. For this project, you'll use Node.js, Express and Pug templates to create a portfolio site to show off the projects you've built.",
+    "technologies": ["Node.js", "Express"],
+    "skills": ["Node.js", "Express", "Pug Templates"],
+    "github_link": "https://github.com/csnewb/static_nodejs_express_site",
+    "image_urls": ["views/project11_main.png", "views/project11_1.png", "views/project11_2.png"]
+  }
+
+  ]
+}
+
