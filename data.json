@@ -8,7 +8,7 @@
     "skills": ["Python Fundamentals"],
     "live_link": "https://csnewb.github.io/project1_number_guessing_game/",
     "github_link": "https://github.com/csnewb/project1_number_guessing_game",
-    "image_urls": ["views/project1_main.png", "views/project1_1.png", "views/project1_2.png"]
+    "image_urls": ["../static/images/0-1.PNG", "../static/images/0-2.PNG"]
   },
   {
     "id": 1,
@@ -18,7 +18,7 @@
     "skills": ["Python Fundamentals"],
     "live_link": "https://csnewb.github.io/project2_basketball_stats/",
     "github_link": "https://github.com/csnewb/project2_basketball_stats",
-    "image_urls": ["views/project2_main.png", "views/project2_1.png", "views/project2_2.png"]
+    "image_urls": ["../static/images/1-1.PNG", "../static/images/1-2.PNG", "../static/images/1-3.PNG"]
   },
   {
     "id": 2,
@@ -28,7 +28,7 @@
     "skills": ["Object-Oriented Programming"],
     "live_link": "https://csnewb.github.io/project3_phrase_hunter/",
     "github_link": "https://github.com/csnewb/project3_phrase_hunter",
-    "image_urls": ["views/project3_main.png", "views/project3_1.png", "views/project3_2.png"]
+    "image_urls": ["../static/images/2-1.PNG", "../static/images/2-2.PNG", "../static/images/2-3.PNG"]
   },
   {
     "id": 3,
@@ -38,7 +38,7 @@
     "skills": ["SQL Alchemy", "Error Handling", "CSV Import"],
     "live_link": "https://csnewb.github.io/project4_store_inventory/",
     "github_link": "https://github.com/csnewb/project4_store_inventory",
-    "image_urls": ["views/project4_main.png", "views/project4_1.png", "views/project4_2.png"]
+    "image_urls": ["../static/images/3-1.PNG", "../static/images/3-2.PNG", "../static/images/3-3.PNG"]
   },
   {
     "id": 4,
@@ -48,7 +48,7 @@
     "skills": ["Flask", "Flask-SQLAlchemy", "SQL Alchemy"],
     "live_link": "https://csnewb.github.io/project5_flask_portfolio/",
     "github_link": "https://github.com/csnewb/project5_flask_portfolio",
-    "image_urls": ["views/project5_main.png", "views/project5_1.png", "views/project5_2.png"]
+    "image_urls": ["../static/images/4-1.PNG", "../static/images/4-2.PNG", "../static/images/4-3.PNG", "../static/images/4-4.PNG"]
   },
   {
     "id": 5,
@@ -58,7 +58,7 @@
     "skills": ["JavaScript Fundamentals"],
     "completed_date": "28 days ago",
     "github_link": "https://github.com/csnewb/random_quote_generator",
-    "image_urls": ["views/project6_main.png", "views/project6_1.png", "views/project6_2.png"]
+    "image_urls": ["../static/images/5-1.PNG", "../static/images/5-2.PNG"]
   },
   {
     "id": 6,
@@ -68,7 +68,7 @@
     "skills": ["JavaScript Fundamentals"],
     "completed_date": "20 days ago",
     "github_link": "https://github.com/csnewb/data_pagination_filtering",
-    "image_urls": ["views/project7_main.png", "views/project7_1.png", "views/project7_2.png"]
+    "image_urls": ["../static/images/6-1.PNG", "../static/images/6-2.PNG"]
   },
   {
     "id": 7,
@@ -78,7 +78,7 @@
     "skills": ["JavaScript Fundamentals"],
     "completed_date": "14 days ago",
     "github_link": "https://github.com/csnewb/interactive_form",
-    "image_urls": ["views/project8_main.png", "views/project8_1.png", "views/project8_2.png"]
+    "image_urls": ["../static/images/7-1.PNG", "../static/images/7-2.PNG", "../static/images/7-3.PNG"]
   },
   {
     "id": 8,
@@ -88,7 +88,7 @@
     "skills": ["JavaScript Fundamentals", "Object-Oriented Programming"],
     "completed_date": "6 days ago",
     "github_link": "https://github.com/csnewb/oop_game_show_app",
-    "image_urls": ["views/project9_main.png", "views/project9_1.png", "views/project9_2.png"]
+    "image_urls": ["../static/images/8-1.PNG", "../static/images/8-2.PNG"]
   },
   {
     "id": 9,
@@ -97,7 +97,7 @@
     "technologies": ["JavaScript"],
     "skills": ["JavaScript Fundamentals", "API Integration"],
     "github_link": "https://github.com/csnewb/public_api_requests",
-    "image_urls": ["views/project10_main.png", "views/project10_1.png", "views/project10_2.png"]
+    "image_urls": ["../static/images/9-1.PNG", "../static/images/9-2.PNG"]
   },
   {
     "id": 10,
@@ -106,7 +106,7 @@
     "technologies": ["Node.js", "Express"],
     "skills": ["Node.js", "Express", "Pug Templates"],
     "github_link": "https://github.com/csnewb/static_nodejs_express_site",
-    "image_urls": ["views/project11_main.png", "views/project11_1.png", "views/project11_2.png"]
+    "image_urls": ["../static/images/10-1.PNG", "../static/images/10-2.PNG"]
   }
 
   ]

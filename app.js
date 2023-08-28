@@ -1,19 +1,15 @@
 const express = require('express');
-const bodyParser = require('body-parser');
-const cookieParser = require('cookie-parser');
 const data = require('./data');
 const projects = data.projects;
 
+// instantiate express and store it in app
 const app = express();
-
-app.use(bodyParser.urlencoded({ extended: false}));
-app.use(cookieParser());
-
 app.set("view engine", 'pug');
 
-
+// import the routes from index.js
 const mainRoutes = require('./routes');
-// Serve static files with explicit content types
+
+// Serve static files with explicit content types to avoid a MIME error
 app.use('/static', express.static('public', {
     setHeaders: (res, path, stat) => {
         if (path.endsWith('.css')) {
@@ -22,41 +18,27 @@ app.use('/static', express.static('public', {
     }
 }));
 
+// call the routes
 app.use(mainRoutes);
 
 
 
-
-
-
-
-
-
-app.use((req, res, next) => {
-    console.log('middleware one');
-    next();
-})
-
-
-
-// 404 handler for undefined routes
+// a 404 catch if no matching route is found above
 app.use((req, res, next) => {
     const err = new Error('Not Found');
     err.status = 404;
     next(err);
 });
 
-// Global error handler
+// an error handler to process either the 404 or other errors
 app.use((err, req, res, next) => {
-    // Ensure err.status and err.message properties exist
-    err.status = err.status || 500; // Default to 500 if status is not set
-    err.message = err.message || 'Internal Server Error'; // Default message
+    err.status = err.status || 500;
+    err.message = err.message || 'Internal Server Error';
 
-    // Log the error message and status
     console.error(`Error Status: ${err.status}`);
     console.error(`Error Message: ${err.message}`);
 
-    // Respond with the appropriate error status and message
+    // Here we are returning the error message as JSON rather then render it on a page
     res.status(err.status);
     res.json({
         error: {
@@ -67,6 +49,7 @@ app.use((err, req, res, next) => {
 });
 
 
+// set the app to port 3050 and run it
 app.listen(3050, () => {
-    console.log('The application is running on localhost: 3000')
+    console.log('The application is running on localhost: 3050')
 });
